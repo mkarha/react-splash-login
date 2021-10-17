@@ -5,11 +5,12 @@
 import React from 'react';
 import {View, Text, SafeAreaView, StyleSheet, TouchableOpacity} from 'react-native';
 
-import AsyncStorage from '@react-native-community/async-storage';
+
 import SplashScreen from '../SplashScreen';
 import { back } from 'react-native/Libraries/Animated/src/Easing';
 import LoginScreen from '../LoginScreen';
 import SettingsScreen from '../DrawerScreens/SettingsScreen';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const LogoutScreen = ({ navigation })  => {
 

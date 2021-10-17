@@ -15,7 +15,7 @@ import {
   KeyboardAvoidingView,
 } from 'react-native';
 
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import Loader from './Components/Loader';
 
@@ -48,7 +48,7 @@ const LoginScreen = ({navigation}) => {
     formBody = formBody.join('&');
     
 
-    fetch('http://localhost:3000/api/user/login', {
+    fetch('http://172.19.16.1:3000/api/user/login', {
       method: 'POST',
       body: formBody,
       headers: {

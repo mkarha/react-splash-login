@@ -15,7 +15,7 @@ import {
   DrawerScreenProps
 } from '@react-navigation/drawer';
 
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import SplashScreen from '../SplashScreen';
 import { back } from 'react-native/Libraries/Animated/src/Easing';
 import LoginScreen from '../LoginScreen';
